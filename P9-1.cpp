@@ -44,4 +44,11 @@ int main(void)
 		if (array[i] % 2 == 0)
 			cout << array[i] << " ";
 	}
+
+	//displays reverse order
+	cout << "\nReversed Order: ";
+	for (int i = arraySize - 1; i >= 0; i--)
+	{
+		cout << array[i] << " ";
+	}
 }
