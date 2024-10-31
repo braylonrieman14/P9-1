@@ -51,4 +51,7 @@ int main(void)
 	{
 		cout << array[i] << " ";
 	}
+
+	//displays first and last number
+	cout << "\nFirst and last: " << array[0] << " " << array[arraySize - 1];
 }
