@@ -28,6 +28,12 @@ int main(void)
 	cout << "The random integers: ";
 	for (int i = 0; i < arraySize; i++)
 		cout << array[i] << " ";
-	
-	//hi
+
+	//displays even indices
+	cout << "\nEven indices: ";
+	for (int i = 0; i < arraySize; i++)
+	{
+		if (i % 2 == 0)
+			cout << array[i] << " ";
+	}
 }
