@@ -36,4 +36,12 @@ int main(void)
 		if (i % 2 == 0)
 			cout << array[i] << " ";
 	}
+
+	//displays even values
+	cout << "\nEven values: ";
+	for (int i = 0; i < arraySize; i++)
+	{
+		if (array[i] % 2 == 0)
+			cout << array[i] << " ";
+	}
 }
